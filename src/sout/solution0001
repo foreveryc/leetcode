@@ -1,0 +1,61 @@
+//import java.util.*;
+//
+//public class solution0001 {
+//    class number{
+//        int numabc;
+//        int numacc;
+//        public number(int numabc,int numacc){
+//            this.numabc=numabc;
+//            this.numacc=numacc;
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        Scanner scanner=new Scanner(System.in);
+//        int n=scanner.nextInt();
+//        int a;
+//        int b;
+//        int c;
+//        int abc;
+//        int acc;
+//        Set<number> set=new HashSet<>();
+//        List<number> list=new ArrayList<>();
+//        for(int x=0;x<10;x++){
+//            a=x;
+//            for(int y=0;y<10;y++){
+//                if(x==y){
+//                    continue;
+//                }
+//                b=y;
+//                for (int z=0;z<10;z++){
+//                    if(z==x||z==y){
+//                        continue;
+//                    }
+//                    c=z;
+//                    abc=a*100+b*10+c;
+//                    acc=a*100+c*10+c;
+//                    if(abc+acc==n){
+//                        if(abc<acc){
+//                            list.add(new number(abc,acc));
+//                        }else{
+//                            list.add(new number(acc,abc));
+//                        }
+//
+//                    }
+//                }
+//            }
+//        }
+//        System.out.println(list.size());
+//        for(int i=0;i<list.size();i++){
+//            set.
+//            System.out.println(list.get(i).numabc+" "+list.get(i).numacc);
+//
+//        }
+//        for(number num:set){
+//            System.out.println(num.numabc+" "+num.numacc);
+//        }
+//
+//    }
+//    }
+//
+//}
